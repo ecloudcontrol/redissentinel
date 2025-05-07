@@ -7,7 +7,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: redis_sentinel:7.0.2
+    image_template: redis_sentinel-7.0
     
 deploy:
     context: jw/DEV
