@@ -20,7 +20,7 @@ volumes:
   - claim: redis-data
     mount: /data
     name: data
-    size: 10Gi
+    size: 5Gi
     
 properties:
     REDIS_DEFAULT_PASSWD:
