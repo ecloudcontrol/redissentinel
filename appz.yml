@@ -1,6 +1,6 @@
 app:
     name: Redis
-    code: REDIS
+    code: redis
     notify: nsrahul@ecloudcontrol.com
 build:
     version: 7.0
