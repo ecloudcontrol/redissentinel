@@ -1,6 +1,6 @@
 app:
-    name: Redis
-    code: REDIS
+    name: Redis Sentinel
+    code: REDISSENTINEL
     notify: nsrahul@ecloudcontrol.com
 build:
     version: 7.0
