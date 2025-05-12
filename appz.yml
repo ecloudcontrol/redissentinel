@@ -15,12 +15,13 @@ deploy:
     type: statefulset
     port:
     - 6379
+    - 26379
     
 volumes:
   - claim: redis-data
-    mount: /data
+    mount: /appz/data
     name: data
-    size: 10Gi
+    size: 5Gi
     
 properties:
     REDIS_DEFAULT_PASSWD:
@@ -28,4 +29,6 @@ properties:
     REDIS_USER_NAME: APPZ
     REDIS_USER_PASSWD: 
        vault: REDISPASSWD
+    REDIS_PASS:
+       vault: REDIS_PASS
     revision : 3
