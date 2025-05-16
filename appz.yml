@@ -21,7 +21,7 @@ volumes:
     mount: /data
     name: data
     size: 5Gi
-    
+    matchLabels: false
 properties:
     REDIS_DEFAULT_PASSWD:
        vault: REDISDEFAULTPASSWD
