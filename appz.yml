@@ -11,7 +11,7 @@ build:
     
 deploy:
     context: alpha/POC
-    replicas: 1
+    replicas: 3
     type: statefulset
     port:
     - 6379
