@@ -26,6 +26,6 @@ properties:
     REDIS_DEFAULT_PASSWD:
        vault: REDISDEFAULTPASSWD
     REDIS_USER_NAME: APPZ
-    REDIS_USER_PASSWD: 
+    REDIS_PASS: 
        vault: REDISPASSWD
     revision : 3
